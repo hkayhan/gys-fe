@@ -2,14 +2,12 @@
 import React, {useEffect, useState} from 'react';
 import styles from './PaymentsManage.module.css'
 import Link from "next/link";
-import data from '@/app/mocs/advertise.json'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheck, faEdit, faMagnifyingGlass, faTrash, faXmark} from "@fortawesome/free-solid-svg-icons";
 import {ApiGetRequest} from "@/services/admin";
 import PaginationComp from "@/components/pagination/PaginationComp";
 import Swal from "sweetalert2";
 import LoadingComp from "@/components/loading/LoadingComp";
-import swal from "sweetalert2";
 
 function PaymentsManageComp(props) {
     const [isLoading, setIsLoading] = useState(false)

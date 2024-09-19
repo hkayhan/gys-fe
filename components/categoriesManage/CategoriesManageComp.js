@@ -1,11 +1,8 @@
 'use client'
 import React, {useEffect, useState} from 'react';
 import styles from './CategoriesManage.module.css'
-import data from '@/app/mocs/categories.json'
 import Link from "next/link";
-import {Tab, TabList, TabPanel, Tabs} from "react-tabs";
 import 'react-tabs/style/react-tabs.css';
-import Switch from "react-switch";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEdit, faGlasses, faMagnifyingGlass, faPlus} from "@fortawesome/free-solid-svg-icons";
 import {ApiGetRequest} from "@/services/admin";
