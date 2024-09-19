@@ -1,0 +1,48 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.footer a {
+    text-decoration: underline;
+}
+
+.footerMain{
+    background-color: #2a2a18;
+    /*margin-top: 3em;*/
+    color: #ffffff;
+}
+
+.footerMain .footerContent{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footerContent div{
+    flex-grow: 1;
+    width: 20%;
+}
+
+.footerContent div:nth-child(1){
+    flex-grow: 2;
+    width: 40%;
+
+}
+
+.header{
+    height:30px
+}
+
+.social-media-button-outline{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: center;
+    color: white !important;
+
+}

@@ -1,0 +1,91 @@
+.showCaseCategoryMain {
+    /*border: 1px solid green;*/
+    /*display: flex;*/
+    /*width: 80%;*/
+    /*margin: auto;*/
+    margin-top: 2em;
+    /*background-color: #ffffff;*/
+    /*padding: 1em;*/
+    /*border-radius: 5px;*/
+    display: flex;
+    justify-content: space-between;
+    padding: 0!important;
+}
+
+.showCaseCategoryMain .item {
+    /*border: 1px solid red;*/
+    /*width: 400px;*/
+    /*padding: 1rem;*/
+    width: 180px !important;
+    padding: 0!important;
+
+
+
+}
+
+.showCaseCategoryMain .item .card {
+    /*max-width: 260px !important;*/
+    margin: auto;
+    border: none!important;
+}
+
+.showCaseCategoryMain .item .card:hover {
+   cursor: pointer;
+    box-shadow: 0 1.2rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+.showCaseCategoryCard {
+    /* Add any styles you want for the container div */
+    position: relative;
+    overflow: hidden;
+}
+
+.showCaseCategoryMain .cardImgTop {
+    /* Set initial size for the image */
+    /*width: 205px;*/
+    /*height: 160px;*/
+    /*transition: width 0.3s, height 0.3s; !* Add a smooth transition effect *!*/
+
+    /* Add any other styles you want for the image */
+    animation: growImage 0.5s ease-in-out; /* Apply the keyframe animation */
+}
+
+@keyframes growImage {
+    /*from {*/
+    /*    width: 205px;*/
+    /*    height: 160px;*/
+    /*}*/
+
+    to {
+        /*width: 300px; !* Adjust the final width as needed *!*/
+        /*height: 240px; !* Adjust the final height as needed *!*/
+
+        background-color: #1f1e1e;
+    }
+}
+
+.showCaseCategoryCard {
+    /* Add any styles you want for the card body */
+    /*animation: growImage 0.5s ease-in-out; !* Apply the keyframe animation *!*/
+    transition: all 0.1s ease-in;
+
+    animation: moveToUp 0.5s forwards ease-in-out ;
+    scale: 0.8;
+    opacity: 0.8;
+}
+
+.showCaseCategoryCard:hover{
+    /*background-color: #1f1e1e;*/
+    /*transform: translateY(-15px);*/
+
+}
+
+@keyframes moveToUp{
+    to{
+        /*background-color: #1f1e1e;*/
+        transform: translateY(-15px);
+        scale: 1;
+        opacity: 1;
+    }
+}

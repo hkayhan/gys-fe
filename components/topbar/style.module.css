@@ -1,0 +1,24 @@
+.topbarMain{
+    display: flex;
+    /*height: 50px;*/
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+
+}
+
+.topbarMain .logo{
+
+}
+
+.topbarContainer{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    /*background: #eae89d;*/
+    width: 100%;
+}

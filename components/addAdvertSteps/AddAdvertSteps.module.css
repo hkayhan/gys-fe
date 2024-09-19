@@ -1,0 +1,65 @@
+.steps-container{
+
+}
+
+.stepsStep{
+
+
+}
+
+.stepsNumber{
+    /*border:1px solid;*/
+    border-radius:50%;
+    width:35px;
+    height:35px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 1.5em;
+    color:white;
+    z-index:10
+
+}
+
+.stepsStepLine{
+    background-color:gray;
+}
+
+
+
+.stepsText{
+
+}
+.stepsText:hover{
+text-decoration:underline;
+
+}
+
+.stepsStepChecked .stepsNumber{
+    background-color:green !important;
+    /*color:white!important;*/
+}
+.stepsStepLine{
+    content: "";
+    display: block;
+    /*width: 200px; !* Çizginin genişliğini ayarlayın *!*/
+    width: 17%; /* Çizginin genişliğini ayarlayın */
+    height: 2px; /* Çizginin yüksekliğini ayarlayın */
+    background-color:gray;
+    margin: 15px -40px; /* Çizgi ile öğe arasındaki boşluğu ayarlayın */
+}.stepsStepCheckedLine {
+    content: "";
+    display: block;
+     width: 17%; /* Çizginin genişliğini ayarlayın */
+    /*width: 200px; !* Çizginin genişliğini ayarlayın *!*/
+    height: 2px; /* Çizginin yüksekliğini ayarlayın */
+    background-color:green;
+    margin: 15px -40px; /* Çizgi ile öğe arasındaki boşluğu ayarlayın */
+}
+
+
+.stepsStepActive .stepsNumber{
+    background-color:yellowgreen !important;
+    /*color:white!important;*/
+}
+

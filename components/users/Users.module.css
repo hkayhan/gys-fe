@@ -1,0 +1,27 @@
+.form{
+width: 100%;
+margin: 10px auto;
+display: flex;
+justify-content: flex-end;
+}
+
+.input[type=search]{
+    background-color: white;
+width: 400px;
+height: 40px;
+font-size: 16px;
+padding: 0px 20px 0px 40px;
+border-radius: 10px 0px 0px 10px;
+outline: none;
+border: solid gray 2px;
+/* background: url('/images/Search.png') 7px center no-repeat; */
+}
+
+
+.form button{
+border-radius:  0px 10px 10px 0px;
+height: 40px;
+/* font-size: 16px; */
+
+}
+

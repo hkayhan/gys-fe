@@ -1,0 +1,58 @@
+.sidebarMain{
+    /*min-width: 50px;*/
+    min-height: 70vh;
+}
+
+.sidebarLinkContainer{
+    width: 250px;
+
+}
+
+.sidebarLinkContainerClosed{
+    width:55px!important;
+}
+
+
+.sidebarLinkContainer{
+    position:relative;
+    transition: width 0.5s;
+
+}
+
+.sidebarLinkText{
+
+}
+
+
+.toggleButton{
+    position:absolute;
+    top: 8px;
+    right: -27px;
+    /*border: 1px solid gray;*/
+    border-radius:0 0.375rem 0.375rem 0;
+    border-left:none!important;
+    background-color:rgb(252, 252, 254);
+    cursor:pointer;
+
+}
+
+
+
+.sidebarMenuLink{
+
+    transition: all 0.3s;
+    border-radius:5px;
+    margin-bottom:2px
+}
+
+.sidebarMenuLink:hover{
+    background-color: #2e5186;
+    color:white;
+    cursor:pointer;
+}
+
+.sidebarMenuLinkActive{
+    background-color: rgb(80, 100, 138);
+    color:white;
+    cursor:pointer;
+}

@@ -1,0 +1,199 @@
+body{
+    background-color: #fcfcfe;
+    background-image: linear-gradient(to right,#fcfcfe,#fbfbfd,#eeeff3, #e8e9ef) ;
+    font-size: 16px;
+    color: #1f1e1e;
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+
+
+}
+
+
+.horizontalMenu {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.mainContentBody {
+    flex: 1;
+    /*padding: 20px;*/
+    overflow-y: auto;
+}
+.shadow{
+    transition: box-shadow 0.1s ease-in;
+
+}
+
+.shadow:hover{
+
+}
+
+
+.shadowHover:hover{
+    border: none!important;
+    box-shadow: 0 1.2rem 1.5rem rgba(0, 0, 0, 0.15) !important;
+
+}
+
+
+
+.hoverSm:hover{
+    border: none!important;
+    box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+    height:42px;
+    font-weight:bold;
+}
+
+
+
+
+.area-header{
+    /*background-color: red;*/
+    align-items: center;
+    display: flex;
+    color: #2a2a18;
+    font-size: 1.25em;
+    font-weight: 600;
+    padding: 0 0 5px 0;
+    height: 25px;
+    white-space: nowrap;
+}
+
+.area-header .area-header-line{
+    /*border:1px solid black;*/
+    border-radius: 2px;
+    background-color: #2a2a18;
+    background-size: 2px 2px;
+    display: block;
+    height: 4px;
+    margin-left: 10px;
+    width: 100%;;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.text-underline{
+
+}
+
+.text-underline:hover{
+    text-decoration: underline;
+}
+
+.mainContent{
+    min-height: 74vh;
+}
+
+.hoverRed:hover{
+    color:brown;
+}
+
+.cursorNotAllowed *{
+    cursor:not-allowed !important;
+}
+
+.opacity-50{
+    opacity:50% !important
+}
+
+.progressBar div{
+    display: flex;
+    border:1px solid rgba(128, 128, 128, 0.66);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.66);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #42421d;
+
+}
+
+.progressBar:before{
+    width: 100%;
+    height: 4px;
+    content: '';
+    background-color: #dfdfdf;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -2px;
+}
+
+
+@media screen and (min-width: 600px) {
+  #cke_1_contents{
+      min-height: 291px!important;
+  }
+}
+
+.btn-outline-purple {
+    border-color: #9b59b6;
+    color: #9b59b6
+}
+
+.btn-outline-purple:hover {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+    color: #fff
+}
+
+/*.bg-esk-danger{*/
+/*    background-color: #f00!important;*/
+/*}*/
+
+@media screen and (max-width: 768px) {
+    .bg-esk-danger{
+        background:none!important;
+    }
+}
+
+
+table input[type="number"] {
+    width: 50px;  /* Genişlik sınırı */
+    height: 30px;  /* Yükseklik sınırı */
+    max-width: 100px;  /* Maksimum genişlik */
+    max-height: 30px;  /* Maksimum yükseklik */
+
+    text-align:center;
+}
+
+.w-5{
+    width:5% !important
+}
+.w-10{
+    width:10% !important
+}
+.w-15{
+    width:15% !important
+}
+.w-90{
+    width:90% !important
+}
+
+.share-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.share-btn i {
+    /*margin-right: 10px;*/
+}
+
+.multiline-ellipsis {
+    display: -webkit-box; /* Fallback for WebKit-based browsers */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* 2 satırla sınırlama */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: 1.5; /* Satır yüksekliği ayarı */
+    max-height: 3em; /* 2 satır için yeterli yükseklik */
+}

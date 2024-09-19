@@ -1,0 +1,10 @@
+.note {
+    background: #ffe0e0;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.note strong {
+    color: #c00;
+}

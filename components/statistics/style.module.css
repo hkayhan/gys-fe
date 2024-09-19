@@ -1,0 +1,37 @@
+.statisticsMain{
+    /*background-color: #ffffff;*/
+    margin-top: 3em;
+    /*box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.15);*/
+
+}
+
+.statisticsMainItem{
+    background-color: #ffffff;
+    padding: 1em;
+    /*box-shadow: 0 1.1rem  rgba(0, 0, 0, 0.15) !important;*/
+/**/
+}
+
+.statisticsMainItem:nth-child(1){
+    border-bottom-left-radius: var(--bs-border-radius);
+    border-top-left-radius: var(--bs-border-radius);
+}
+
+.statisticsMainItem:nth-child(2){
+    border-bottom-right-radius: var(--bs-border-radius);
+    border-top-right-radius: var(--bs-border-radius);
+}
+
+.statisticsMainItem:first-child{
+    border-right: 1px solid #eae4e4;
+    /*box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
+}
+
+.statisticsMainItem:last-child{
+    border-left: 1px solid #eae4e4;
+    /*box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);*/
+}
+
+
+
+

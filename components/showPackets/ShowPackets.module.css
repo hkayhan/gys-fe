@@ -1,0 +1,15 @@
+.packetItem{
+    height:200px;
+    padding:10px
+
+
+}
+
+.packetImage{
+    height:100%;
+    width:100%
+}
+
+.packetItem:hover{
+    padding:5px
+}

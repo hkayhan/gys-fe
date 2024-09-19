@@ -1,0 +1,24 @@
+.supporterMain{
+    margin-top: 3em;
+    /*background-color: #ffffff;*/
+    /*padding: 2em;*/
+    /*border-radius: 5px;*/
+}
+
+.supporterArea{
+
+    /*width: 80%;*/
+    display: flex;
+    gap: 20px;
+    margin:auto;
+    border:none;
+}
+.supporterArea .card{
+    max-width: 100px;
+    border:none;
+}
+
+/*.supporterArea div .card:hover{*/
+/*    box-shadow: 0 1.1rem 1.2rem rgba(0, 0, 0, 0.15) !important;*/
+
+/*}*/

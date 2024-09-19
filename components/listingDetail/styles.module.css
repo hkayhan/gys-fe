@@ -1,0 +1,44 @@
+.listingDetailMain{
+    min-height: 70vh;
+    display: flex;
+
+}
+
+.listingDetailMain svg{
+    margin-right: 5px;
+}
+
+.listingDetailMain h2{
+    color:darkblue;
+    font-weight: bold;
+}
+
+.listingDetailCardHeader{
+    background-color: ghostwhite;
+    border-bottom: 2px solid #365486;
+}
+
+.listingDetailCardBody{
+
+}
+
+.listingDetailCardBodyHr{
+    /*width: 95%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listingDetailCardBodyButtons{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.activeImageUrl{
+    border: 2px #d52222 solid;
+}
+
+.ownerCard{
+    /*min-width: 100px;*/
+}

@@ -1,0 +1,109 @@
+/*.form-group {*/
+/*    position: relative;*/
+/*    margin-bottom: 25px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.label {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*    -moz-transform: translateY(-50%);*/
+/*    -webkit-transform: translateY(-50%);*/
+/*    -o-transform: translateY(-50%);*/
+/*    -ms-transform: translateY(-50%);*/
+/*    color: #222;*/
+/*}*/
+
+/*.input {*/
+/*    width: 100%;*/
+/*    display: block;*/
+/*    border: none;*/
+/*    border-bottom: 1px solid #999;*/
+/*    padding: 6px 30px;*/
+/*    !*font-family: Poppins;*!*/
+/*    box-sizing: border-box;*/
+/*    outline:none*/
+
+/*}*/
+
+/*.input:focus{*/
+/*    border-bottom: 1px solid #f30000;*/
+/*}*/
+
+/* styles.module.css */
+/*:root {*/
+/*    --primary: #11998e;*/
+/*    --secondary: #38ef7d;*/
+/*    --white: #fff;*/
+/*    --gray: #9b9b9b;*/
+/*}*/
+
+.form__group {
+
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    /*width: 50%;*/
+}
+
+.form__field {
+    /*font-family: inherit;*/
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(21, 53, 59, 0.38);
+    outline: 0;
+    /*font-size: 1.3rem;*/
+    /*color: #fff;*/
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 0.75rem;
+    color: #9b9b9b;
+}
+
+
+.form__field::placeholder {
+    color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+    font-size: 1rem;
+    cursor: text;
+    top: 20px;
+}
+
+
+.form__field:focus {
+    padding-bottom: 6px;
+    /*font-weight: 700;*/
+    border-width: 3px;
+    border-bottom:  2px solid #f30000;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+.horizontal-shake {
+    animation: horizontal-shaking 0.5s ease-in;
+}
+
+
+@keyframes horizontal-shaking {
+    0% { transform: translateX(0) }
+    25% { transform: translateX(5px) }
+    50% { transform: translateX(-5px) }
+    75% { transform: translateX(5px) }
+    100% { transform: translateX(0) }
+}

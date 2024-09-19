@@ -1,0 +1,9 @@
+.printableDiv{
+    
+}
+
+@media print {
+    @page  {
+        size:21cm
+    }
+}

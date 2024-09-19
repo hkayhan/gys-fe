@@ -1,0 +1,56 @@
+.addAdvertMain {
+    min-height: 80vh;
+}
+
+.children-list {
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.advertImageBox {
+    margin-right: 10px;
+
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #99ccff;
+}
+
+.advertImageBox span {
+
+    position: absolute;
+    /*width:40px;*/
+    /*height: 40px;*/
+    top: -5px;
+    right: -5px;
+    /*border: 1px solid gray;*/
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    vertical-align: center;
+    background-color:white;
+}
+
+.advertImageBox span:hover{
+    font-size: larger;
+}
+
+.addAdvertImageBox {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: #99ccff;
+}
+
+.addAdvertImageBox label{
+    /*border: 1px solid gray;*/
+    padding: 10px;
+    border-radius: 50%;
+    background-color:white;
+
+}
+
+
+.addAdvertImageBox label:hover{
+    font-size:larger;
+}
